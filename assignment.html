@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+   #light{
+       color:black;
+       background-color: #e5ffc2;
+   }
+   #dark{
+       background-color: palevioletred;
+   }
+  
+ 
+</style>
+</head>
+<body>
+    <div class="container" >
+        <div class="row mt-5 " id="light">
+            <div class="card-fluid border border-dark rounded col-3 p-0" id="card1">
+                    <div class="card-body">
+                        <div class="text-center mt-0"><input type="checkbox" onclick="product(1)"  id="check1" /></div>
+                            <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+                        <div class="card-body">
+                            <span>Name: </span> <span id="name1">name</span><br>
+                            <span>Desciption: </span> desc<br>
+                            <span>Price: </span><span id="p1">1000</span><br>
+                        <div class="row">
+                            <div class="col-2"><span>Qty:</span></div>
+                            <div class="col-6"><input value="1" id="q1" class="form-control"  type="text"></div>
+                        </div>                         
+                   </div>
+                </div>
+            </div>
+            <div class="card-fluid border border-dark rounded col-3 p-0" id="card2">
+                <div class="card-body">
+                    <div class="text-center mt-0"><input type="checkbox" onclick="product(2)"  id="check2" /></div>
+                        <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+                    <div class="card-body">
+                        <span>Name: </span> <span id="name2">name</span><br>
+                        <span>Desciption: </span> desc<br>
+                        <span>Price: </span><span id="p2">1000</span><br>
+                    <div class="row">
+                        <div class="col-2"><span>Qty:</span></div>
+                        <div class="col-6"><input value="1" id="q2" class="form-control"  type="text"></div>
+                    </div>                         
+               </div>
+            </div>
+        </div>
+        <div class="card-fluid border border-dark rounded col-3 p-0" id="card3">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(3)"  id="check3" /></div>
+                    <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name3">name</span><br>
+                    <span>Desciption: </span> desc<br>
+                    <span>Price: </span><span id="p3">1000</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q3" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card4">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(4)"  id="check4" /></div>
+                <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name4">name</span><br>
+                <span>Desciption: </span> desc<br>
+                <span>Price: </span><span id="p4">1000</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q4" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>        
+</div>
+<div class="row mt-5 " id="dark">
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card5">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(5)"  id="check5" /></div>
+                    <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name5">name</span><br>
+                    <span>Desciption: </span> desc<br>
+                    <span>Price: </span><span id="p5">1000</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q5" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card6">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(6)"  id="check6" /></div>
+                <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name6">name</span><br>
+                <span>Desciption: </span> desc<br>
+                <span>Price: </span><span id="p6">1000</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q6" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card7">
+    <div class="card-body">
+        <div class="text-center mt-0"><input type="checkbox" onclick="product(7)"  id="check7" /></div>
+            <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+        <div class="card-body">
+            <span>Name: </span> <span id="name7">name</span><br>
+            <span>Desciption: </span> desc<br>
+            <span>Price: </span><span id="p7">1000</span><br>
+        <div class="row">
+            <div class="col-2"><span>Qty:</span></div>
+            <div class="col-6"><input value="1" id="q7" class="form-control"  type="text"></div>
+        </div>                         
+   </div>
+</div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card8">
+<div class="card-body">
+    <div class="text-center mt-0"><input type="checkbox" onclick="product(8)"  id="check8" /></div>
+        <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+    <div class="card-body">
+        <span>Name: </span> <span id="name8">name</span><br>
+        <span>Desciption: </span> desc<br>
+        <span>Price: </span><span id="p8">1000</span><br>
+    <div class="row">
+        <div class="col-2"><span>Qty:</span></div>
+        <div class="col-6"><input value="1" id="q8" class="form-control"  type="text"></div>
+    </div>                         
+</div>
+</div>
+</div>        
+</div>
+<div class="row mt-5 " id="light">
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card9">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(9)"  id="check9" /></div>
+                    <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name9">name</span><br>
+                    <span>Desciption: </span> desc<br>
+                    <span>Price: </span><span id="p9">1000</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q9" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card10">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(10)"  id="check10" /></div>
+                <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name10">name</span><br>
+                <span>Desciption: </span> desc<br>
+                <span>Price: </span><span id="p10">1000</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q10" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card11">
+    <div class="card-body">
+        <div class="text-center mt-0"><input type="checkbox" onclick="product(11)"  id="check11" /></div>
+            <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+        <div class="card-body">
+            <span>Name: </span> <span id="name11">name</span><br>
+            <span>Desciption: </span> desc<br>
+            <span>Price: </span><span id="p11">1000</span><br>
+        <div class="row">
+            <div class="col-2"><span>Qty:</span></div>
+            <div class="col-6"><input value="1" id="q11" class="form-control"  type="text"></div>
+        </div>                         
+   </div>
+</div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card12">
+<div class="card-body">
+    <div class="text-center mt-0"><input type="checkbox" onclick="product(12)"  id="check12" /></div>
+        <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+    <div class="card-body">
+        <span>Name: </span> <span id="name12">name</span><br>
+        <span>Desciption: </span> desc<br>
+        <span>Price: </span><span id="p12">1000</span><br>
+    <div class="row">
+        <div class="col-2"><span>Qty:</span></div>
+        <div class="col-6"><input value="1" id="q12" class="form-control"  type="text"></div>
+    </div>                         
+</div>
+</div>
+</div>        
+</div>
+<div class="row mt-5 " id="dark">
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card13">
+            <div class="card-body">
+                <div class="text-center mt-0"><input type="checkbox" onclick="product(13)"  id="check13" /></div>
+                    <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+                <div class="card-body">
+                    <span>Name: </span> <span id="name13">name</span><br>
+                    <span>Desciption: </span> desc<br>
+                    <span>Price: </span><span id="p13">1000</span><br>
+                <div class="row">
+                    <div class="col-2"><span>Qty:</span></div>
+                    <div class="col-6"><input value="1" id="q13" class="form-control"  type="text"></div>
+                </div>                         
+           </div>
+        </div>
+    </div>
+    <div class="card-fluid border border-dark rounded col-3 p-0" id="card14">
+        <div class="card-body">
+            <div class="text-center mt-0"><input type="checkbox" onclick="product(14)"  id="check14" /></div>
+                <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+            <div class="card-body">
+                <span>Name: </span> <span id="name14">name</span><br>
+                <span>Desciption: </span> desc<br>
+                <span>Price: </span><span id="p14">1000</span><br>
+            <div class="row">
+                <div class="col-2"><span>Qty:</span></div>
+                <div class="col-6"><input value="1" id="q14" class="form-control"  type="text"></div>
+            </div>                         
+       </div>
+    </div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card15">
+    <div class="card-body">
+        <div class="text-center mt-0"><input type="checkbox" onclick="product(15)"  id="check15" /></div>
+            <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+        <div class="card-body">
+            <span>Name: </span> <span id="name15">name</span><br>
+            <span>Desciption: </span> desc<br>
+            <span>Price: </span><span id="p15">1000</span><br>
+        <div class="row">
+            <div class="col-2"><span>Qty:</span></div>
+            <div class="col-6"><input value="1" id="q15" class="form-control"  type="text"></div>
+        </div>                         
+   </div>
+</div>
+</div>
+<div class="card-fluid border border-dark rounded col-3 p-0" id="card16">
+<div class="card-body">
+    <div class="text-center mt-0"><input type="checkbox" onclick="product(16)"  id="check16" /></div>
+        <img class="card-img" src="E:/VSCODE/Day3/background.jpg">
+    <div class="card-body">
+        <span>Name: </span> <span id="name16">name</span><br>
+        <span>Desciption: </span> desc<br>
+        <span>Price: </span><span id="p16">1000</span><br>
+    <div class="row">
+        <div class="col-2"><span>Qty:</span></div>
+        <div class="col-6"><input value="1" id="q16" class="form-control"  type="text"></div>
+    </div>                         
+</div>
+</div>
+</div>        
+</div>
+
+
+<br>
+<h4>Ordered Item</h4>
+<div class="row">
+    <div class="col-12">
+        <table id="tab" class="">
+
+        </table>
+    </div>
+    
+    <br>
+</div>
+<hr>
+<button type="button" class="btn btn-primary" onclick="totalSum()">Display Total Amount for Shopping</button><br><br><br><br><br>
+    </div>
+    <script>
+
+var sum=0;
+var count=0;
+
+        function product(a){
+    var c = document.getElementById('check'+a)
+    if (c.checked) {
+
+       document.getElementById('q'+a) .disabled=true
+        
+	   document.getElementById('card'+a).style.backgroundColor='#F4D160'
+       var ele=document.createElement("tr")
+       ele.id="row"+a
+       document.getElementById('tab').appendChild(ele)
+
+       var el=document.createElement('td')
+       el.id=a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="item"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="price"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="quantity"+a
+       document.getElementById('row'+a).appendChild(el)
+
+       var el=document.createElement('td')
+       el.id="total"+a
+       document.getElementById('row'+a).appendChild(el)
+      
+     var name = document.getElementById("name"+a)
+     var price =document.getElementById("p"+a)
+     var qt = document.getElementById("q"+a).value
+     var pr=parseInt(price.textContent)*qt
+        sum+=pr
+     count++
+     document.getElementById(a).innerHTML=count+'.&emsp;'
+     document.getElementById("item"+a).innerHTML=name.textContent+'&emsp;'
+     document.getElementById("price"+a).innerHTML=price.textContent+'&emsp;'
+     document.getElementById("quantity"+a).innerHTML=qt+'&emsp;'
+     document.getElementById('total'+a).innerHTML=pr+"&emsp;"
+
+    }else{
+        count--
+        var price =document.getElementById("p"+a)
+        var qt = document.getElementById("q"+a).value
+        var pr=parseInt(price.textContent)*qt
+        sum-=pr
+        document.getElementById('q'+a) .disabled=false
+        document.getElementById(a).innerHTML=count+'.&emsp;'
+    document.getElementById('tab').removeChild(document.getElementById('row'+a))
+        if (1<=a&&a<=4||9<=a&&a<=12) {
+            document.getElementById('card'+a).style.backgroundColor='#C2FFD9'
+          
+        } else if (5<=a&&a<=8||13<=a&&a<=16) {
+                document.getElementById('card'+a).style.backgroundColor='#seagreen'
+               
+            }
+    }
+}
+function totalSum(){
+alert("Total sum: "+sum)
+}
+
+    </script>
+</body>
+</html>
